@@ -25,7 +25,7 @@ It books appointments **for you, with your information** — the same thing you'
 ## Quick start
 
 ```bash
-git clone <your-repo-url>
+git clone [[<your-repo-url>](https://github.com/nicdeleon00/texas-dps-scheduler)]
 cd texas-dps-scheduler
 npm install          # installs deps + browser (skips browser if Chrome already present)
 cp example.config.yml config.yml
