@@ -7,4 +7,4 @@ pnpm-lock.yaml
 cache/*
 .env
 .tool-versions
-.cache
+.cache.DS_Store

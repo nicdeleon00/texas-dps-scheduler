@@ -9,7 +9,7 @@
     "start": "ts-node --transpile-only src/index.ts",
     "start-debug": "NODE_ENV=development npm run start",
     "eslint": "eslint src/**/*.ts",
-    "postinstall": "node -e \"require('child_process').execSync('npx patchright install --with-deps --no-shell ' + (process.arch === 'arm64' ? 'chromium' : 'chrome'), {stdio: 'inherit'})\""
+    "postinstall": "node scripts/install-browser.js"
   },
   "repository": {
     "type": "git",
